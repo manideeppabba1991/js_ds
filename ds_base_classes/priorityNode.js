@@ -1,7 +1,7 @@
 class PriorityNode {
-    constructor() {
-        this.value = null;
-        this.priority = null;
+    constructor(value, priority) {
+        this.value = value;
+        this.priority = priority;
     }
 }
 
